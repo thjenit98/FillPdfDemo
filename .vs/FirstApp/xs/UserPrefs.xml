@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{7DF6581C-1DEF-487A-A878-DDC65D4F141D}|Default">
+  <MonoDevelop.Ide.ItemProperties.FirstApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C40C86B-2106-442F-BAAA-593344F2F79E" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstApp/MainPage.xaml.cs">
+    <Files>
+      <File FileName="FirstApp/MainPage.xaml" Line="9" Column="1" />
+      <File FileName="FirstApp/App.xaml" />
+      <File FileName="FirstApp/App.xaml.cs" />
+      <File FileName="FirstApp/MainPage.xaml.cs" Line="38" Column="73" />
+      <File FileName="FirstApp/ViewModels/PdfViewerViewModel.cs" />
+      <File FileName="FirstApp.iOS/AppDelegate.cs" />
+      <File FileName="FirstApp/Views/StartPage.xaml.cs" />
+      <File FileName="FirstApp.iOS/Main.cs" />
+      <File FileName="FirstApp/Views/StartPage.xaml" />
+      <File FileName="FirstApp.iOS/Entitlements.plist" />
+      <File FileName="FirstApp.iOS/Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstApp" expanded="True">
+            <Node name="FirstApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Assets" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="StartPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="FirstApp.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

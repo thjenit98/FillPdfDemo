@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"            
+             xmlns:local="clr-namespace:FirstApp"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms"
+             x:Class="FirstApp.MainPage"
+             Title="Main Page"
+             >
+
+    <ContentPage.BindingContext>
+        <local:PdfViewerViewModel/>
+    </ContentPage.BindingContext>
+    <Grid x:Name="mainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <!--<Button x:Name="signatureButton" Command="{Binding AnnotationModeCommand, Source={x:Reference Name=pdfViewerControl}}" CommandParameter="HandwrittenSignature" />-->
+        <syncfusion:SfPdfViewer Grid.Row="1" x:Name="pdfViewerControl" />
+    </Grid> 
+
+</ContentPage>

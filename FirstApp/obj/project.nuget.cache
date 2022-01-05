@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "kQ0a1BxB7p/2BWgUoXVmfRQsf3hrPTyJEq+zcZaMD5vrF4/PiXepe6+pGrLGjc0dBbALZXED3ecfqTV+pdy5AQ==",
+  "success": true,
+  "projectFilePath": "/Users/qthjen/Projects/Labs/xamarin/FirstApp/FirstApp/FirstApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/qthjen/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.licensing/19.4.0.41/syncfusion.licensing.19.4.0.41.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.xamarin.compression/19.4.0.41/syncfusion.xamarin.compression.19.4.0.41.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.xamarin.core/19.4.0.41/syncfusion.xamarin.core.19.4.0.41.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.xamarin.pdf/19.4.0.41/syncfusion.xamarin.pdf.19.4.0.41.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.xamarin.sfbusyindicator/17.1.0.51/syncfusion.xamarin.sfbusyindicator.17.1.0.51.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.xamarin.sfpdfviewer/17.1.0.51/syncfusion.xamarin.sfpdfviewer.17.1.0.51.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/syncfusion.xamarin.sfrangeslider/17.1.0.51/syncfusion.xamarin.sfrangeslider.17.1.0.51.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/qthjen/.nuget/packages/xamarin.forms/5.0.0.2291/xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": []
+}

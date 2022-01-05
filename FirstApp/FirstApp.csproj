@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="19.4.0.41" />
+    <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="19.4.0.41" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="17.1.0.51" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Syncfusion.Xamarin.Core" />
+    <None Remove="Syncfusion.Xamarin.Pdf" />
+    <None Remove="Syncfusion.Xamarin.SfPdfViewer" />
+    <None Remove="ViewModels\" />
+    <None Remove="Models\" />
+    <None Remove="Views\" />
+    <None Remove="Assets\" />
+    <None Remove="Assets\PDF_Succinctly.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
+    <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\PDF_Succinctly.pdf" />
+  </ItemGroup>
+</Project>
